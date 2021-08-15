@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "93a97bf3be79cf58b130afd04b50677c",
+    "revision": "b3fa1e0441eb5d9aa7035c7f4b165d42",
     "url": "/YuliyaBaskakova3012/demo-social-network/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/YuliyaBaskakova3012/demo-social-network/static/css/4.596d3af4.chunk.css"
   },
   {
-    "revision": "b221b1d0910e66603a3c",
+    "revision": "7df4bf7f15c23f624a7f",
     "url": "/YuliyaBaskakova3012/demo-social-network/static/css/main.d8373f00.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/YuliyaBaskakova3012/demo-social-network/static/js/4.d982cfdc.chunk.js"
   },
   {
-    "revision": "b221b1d0910e66603a3c",
-    "url": "/YuliyaBaskakova3012/demo-social-network/static/js/main.d719a8c0.chunk.js"
+    "revision": "7df4bf7f15c23f624a7f",
+    "url": "/YuliyaBaskakova3012/demo-social-network/static/js/main.2cdd60de.chunk.js"
   },
   {
     "revision": "85f4b7ab29b64172ad3e",
