@@ -1,6 +1,6 @@
 .nav{
     grid-area: n;
-    background-color: burlywood;
+    background-color:#7395AE;
     padding: 20px;
     }
 .item a{
@@ -8,5 +8,5 @@
     text-decoration: none;
 }
 .item a.active{
-    color: gold;
+    color:#B1A296;
 }

@@ -1,8 +1,8 @@
-import React from "react";
-import Paginator from "./common/Paginator";
-import User from "./User.jsx";
+import React from 'react';
+import Paginator from './common/Paginator';
+import User from './User.jsx';
 let Users=({currentPage, totalUsersCount, pageSize, onPageChanged, users, ...props})=>{
-return  <div>
+   return  <div>
    <Paginator currentPage={currentPage} onPageChanged={onPageChanged} 
     totalItemsCount={totalUsersCount} pageSize={pageSize}/>
     <div>
@@ -18,6 +18,4 @@ return  <div>
  </div>
  </div>
 }
-
-
 export default Users;

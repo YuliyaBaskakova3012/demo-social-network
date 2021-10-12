@@ -4,7 +4,10 @@
 }
 .paginator{
     padding: 2px;
-    border: 1px solid grey;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .pageNumber{
     padding: 2px;

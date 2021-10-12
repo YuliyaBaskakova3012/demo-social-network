@@ -1,9 +1,9 @@
-import * as axios from "axios";
+import * as axios from 'axios';
 const instance=axios.create({
     withCredentials: true,
-    baseURL: "https://social-network.samuraijs.com/api/1.0/",
+    baseURL: 'https://social-network.samuraijs.com/api/1.0/',
     headers: {
-        "API-KEY": "e8e604f3-216c-4026-8739-6d2629efafea"
+        'API-KEY': 'e8e604f3-216c-4026-8739-6d2629efafea'
     }
 })
 export const usersAPI={
@@ -14,20 +14,16 @@ export const usersAPI={
         })
     },
     follow(userId){
-       return instance.post(`follow/${userId}`, {}, {
-            
+    return instance.post(`follow/${userId}`, {}, {   
         })
     },
     unfollow(userId){
-       return instance.delete(`follow/${userId}`, {
-           
+    return instance.delete(`follow/${userId}`, {  
         })
     },
     getProfile(userId){
-        console.warn("Obsolete method. Please profileAPI object");
-      return profileAPI.getProfile(userId);
+    return profileAPI.getProfile(userId);
     }
-
 }
 export const profileAPI={
     getProfile(userId){
@@ -38,17 +34,33 @@ export const profileAPI={
     },
     updateStatus(status){
         return instance.put(`profile/status`, {status: status})
+    },
+    savePhoto(photoFile){
+const formData=new FormData();
+formData.append('image', photoFile);
+return instance.put(`profile/photo`, formData, {
+    headers: {
+        'Content-Type': 'multipart/form-data'
     }
-
+})
+    },
+saveProfile(profile){
+return instance.put(`profile`, profile) 
+}
 }
 export const authAPI={
     me(){
        return instance.get(`auth/me`);
     },
-    login(email, password, rememberMe=false){
-        return instance.post(`auth/login`, {email, password, rememberMe});
-     },
-     logout(){
+    login(email, password, rememberMe=false, captcha=null){
+        return instance.post(`auth/login`, {email, password, rememberMe, captcha});
+    },
+    logout(){
         return instance.delete(`auth/login`);
-     }
+    }
+}
+export const securityAPI={
+    getCaptchaUrl(){
+       return instance.get(`security/get-captcha-url`);
+    }
 }

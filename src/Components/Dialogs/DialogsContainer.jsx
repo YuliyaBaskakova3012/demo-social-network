@@ -1,10 +1,8 @@
-import React from "react";
-import { connect } from "react-redux";
-import { Redirect } from "react-router-dom";
-import { compose } from "redux";
-import { withAuthRedirect } from "../../hoc/withAuthRedirect";
-import { sendMessageCreator} from "../../redux/dialogs-reducer";
-import Dialogs from "./Dialogs"
+import { connect } from 'react-redux';
+import { compose } from 'redux';
+import { withAuthRedirect } from '../../hoc/withAuthRedirect';
+import { sendMessageCreator} from '../../redux/dialogs-reducer';
+import Dialogs from './Dialogs';
 const mapStateToProps=(state)=>{
     return{
         dialogsPage: state.dialogsPage
@@ -13,11 +11,10 @@ const mapStateToProps=(state)=>{
 const mapDispatchToProps=(dispatch)=>{
     return{
         sendMessage: (newMessageBody)=>{
-dispatch(sendMessageCreator(newMessageBody))
+        dispatch(sendMessageCreator(newMessageBody))
         }
     }
 }
-
 export default compose(
     connect(mapStateToProps, mapDispatchToProps),
     withAuthRedirect

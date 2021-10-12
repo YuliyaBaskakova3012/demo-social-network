@@ -1,6 +1,14 @@
 
-.content{
-    grid-area: c;
-    background-color: cornflowerblue;
+.descriptionBlock{
+ padding: 16px;
+ text-align: center;
     }
-    
+.descriptionBlock div{
+ text-align: left;
+    }
+.mainPhoto{
+ max-width: 200px;
+    }
+.contact{
+ padding-left: 10px;
+    }

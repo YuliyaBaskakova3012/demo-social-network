@@ -1,7 +1,15 @@
 .userPhoto{
     width: 100px;
     height: 100px;
+    padding: 10px;
 }
 .selectedPage{
 font-weight: bold;
+}
+.users{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  
 }

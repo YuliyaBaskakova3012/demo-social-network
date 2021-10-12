@@ -1,11 +1,11 @@
 import React from 'react';
-
-import s from "./Post.module.css";
+import user1 from './../../../../assets/images/user1.jpg';
+import s from './Post.module.css';
 
 const Post=(props)=>{
 
  return ( 
-<div className={s.item}><img src="https://raduga.net.ru/wp-content/uploads/2020/08/litso-krupnym-planom.jpg"/>
+<div className={s.item}><img alt='user' src={user1}/>
 {props.message}
 <div><span>like: {props.like}</span></div>
 
