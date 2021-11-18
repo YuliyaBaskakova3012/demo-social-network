@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "abf372cba29cf574387c1f4419b6a5ac",
+    "revision": "20c7bbcdd0b7148cf7965090bcefe08e",
     "url": "/demo-social-network/index.html"
   },
   {
-    "revision": "3cab7fe85da2ce4239fa",
-    "url": "/demo-social-network/static/css/3.524c10a1.chunk.css"
+    "revision": "00092111bcd8b6a3785c",
+    "url": "/demo-social-network/static/css/3.51167fdb.chunk.css"
   },
   {
-    "revision": "1f89364bfded0ee94d56",
-    "url": "/demo-social-network/static/css/4.e7018226.chunk.css"
+    "revision": "40988df7cb254eee444f",
+    "url": "/demo-social-network/static/css/4.40a8e96a.chunk.css"
   },
   {
-    "revision": "2cf6a7c4c55dbb8578c9",
-    "url": "/demo-social-network/static/css/main.fc54ab7e.chunk.css"
+    "revision": "3138f24f158ed8a8c4b1",
+    "url": "/demo-social-network/static/css/main.e090753b.chunk.css"
   },
   {
     "revision": "7f3ccecefeceea1ebe78",
@@ -24,20 +24,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/demo-social-network/static/js/2.0d69cbad.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3cab7fe85da2ce4239fa",
-    "url": "/demo-social-network/static/js/3.e6d2a869.chunk.js"
+    "revision": "00092111bcd8b6a3785c",
+    "url": "/demo-social-network/static/js/3.f740b54f.chunk.js"
   },
   {
-    "revision": "1f89364bfded0ee94d56",
-    "url": "/demo-social-network/static/js/4.abde720f.chunk.js"
+    "revision": "40988df7cb254eee444f",
+    "url": "/demo-social-network/static/js/4.8e62f163.chunk.js"
   },
   {
-    "revision": "2cf6a7c4c55dbb8578c9",
-    "url": "/demo-social-network/static/js/main.558d87c8.chunk.js"
+    "revision": "3138f24f158ed8a8c4b1",
+    "url": "/demo-social-network/static/js/main.5629d106.chunk.js"
   },
   {
-    "revision": "dd1e942f142ec0967d97",
-    "url": "/demo-social-network/static/js/runtime-main.ea51d7c6.js"
+    "revision": "f3ff8b16ccbe1e4f77b0",
+    "url": "/demo-social-network/static/js/runtime-main.6d2af297.js"
   },
   {
     "revision": "14707564c3a7e767c76d0aa5fb2a6585",
