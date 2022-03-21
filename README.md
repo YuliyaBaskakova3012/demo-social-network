@@ -25,7 +25,7 @@ __Пароль: free__
 
 + Используется тестирование компонентов.
 
-### Деплой: https://yuliyabaskakova3012.github.io/demo-social-network/#/login
+### Просмотр работы кода: https://yuliyabaskakova3012.github.io/demo-social-network/#/login
 
 
 
