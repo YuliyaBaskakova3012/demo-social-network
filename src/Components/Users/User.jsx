@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import styles from './users.module.css';
-import userPhoto from '../assets/images/user.png';
+import userPhoto from '../../assets/images/user.png';
 let User=({user, followingInProgress, unfollow, follow})=>(
     <div className={styles.users}>
     <span>
