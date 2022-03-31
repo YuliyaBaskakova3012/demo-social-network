@@ -2,7 +2,6 @@ import React from 'react';
 import { reduxForm } from 'redux-form';
 import { createField, Input, Textarea } from '../common/FormsControls/FormsControls';
 import s from './ProfileInfo.module.css';
-import style from '../common/FormsControls/FormsControls.module.css';
 const ProfileDataForm=({handleSubmit, profile, error})=>{
 return <form onSubmit={handleSubmit}>
   <div><button>save</button></div>

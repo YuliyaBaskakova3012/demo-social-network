@@ -1,5 +1,7 @@
 # Демоверсия социальной сети
 
+<img src='./src/assets/images/social-network.jpg' alt='social-network'>
+
 ## Функционал
 
 + Авторизация с помощью электронной почты.  
@@ -25,7 +27,11 @@ __Пароль: free__
 
 + Используется тестирование компонентов.
 
+### Используемые технологии и инструменты: 
+* React
+* Redux
+* Redux-Thunk
+* Css Modules
+* Библиотека Axios
+
 ### Просмотр работы кода: https://yuliyabaskakova3012.github.io/demo-social-network/#/login
-
-
-

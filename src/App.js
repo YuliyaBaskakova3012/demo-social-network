@@ -1,22 +1,22 @@
 import React from 'react';
 import './App.css';
-import Navbar from './Components/Navbar/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import {HashRouter, Redirect, Route, Switch } from 'react-router-dom';
-import News from './Components/News/News';
-import Music from './Components/Music/Music';
-import Setting from './Components/Setting/Setting';
-import UsersContainer from './Components/Users/UsersContainer';
-import HeaderContainer from './Components/Header/HeaderContainer';
-import LoginPage from './Components/Login/Login';
+import News from './components/News/News';
+import Music from './components/Music/Music';
+import Setting from './components/Setting/Setting';
+import UsersContainer from './components/Users/UsersContainer';
+import HeaderContainer from './components/Header/HeaderContainer';
+import LoginPage from './components/Login/Login';
 import { connect, Provider } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 import {initializeApp} from './redux/app-reducer';
-import Preloader1 from './Components/common/Preloader/Preloader1';
+import Preloader from './components/common/Preloader/Preloader';
 import { compose } from 'redux';
 import store from './redux/redux-store';
 import { withSuspense } from './hoc/withSuspense';
-const DialogsContainer=React.lazy(()=>import('./Components/Dialogs/DialogsContainer'));
-const ProfileContainer=React.lazy(()=>import('./Components/Profile/ProfileContainer'));
+const DialogsContainer=React.lazy(()=>import('./components/Dialogs/DialogsContainer'));
+const ProfileContainer=React.lazy(()=>import('./components/Profile/ProfileContainer'));
 
 class App extends React.Component {
   componentDidMount(){
@@ -24,7 +24,7 @@ class App extends React.Component {
    }
   render(){
     if(!this.props.initialized){
-    return <Preloader1 />
+    return <Preloader/>
     }
     else{
   return (
