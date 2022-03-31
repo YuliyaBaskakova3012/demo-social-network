@@ -25,6 +25,13 @@ __Пароль: free__
 
 + Используется тестирование компонентов.
 
+### Используемые технологии и инструменты: 
+* React
+* Redux
+* Redux-Thunk
+* Css Modules
+* Библиотека Axios
+
 ### Просмотр работы кода: https://yuliyabaskakova3012.github.io/demo-social-network/#/login
 
 
