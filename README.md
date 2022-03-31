@@ -33,5 +33,12 @@ __Пароль: free__
 * Redux-Thunk
 * Css Modules
 * Библиотека Axios
+<<<<<<< HEAD
+=======
+
+### Просмотр работы кода: https://yuliyabaskakova3012.github.io/demo-social-network/#/login
+
+
+>>>>>>> 55881fcc175d78397856f33c30fbfa61494b8f72
 
 ### Просмотр работы кода: https://yuliyabaskakova3012.github.io/demo-social-network/#/login
